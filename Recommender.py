@@ -113,11 +113,11 @@ def get_recommendations(ids,names,posters,genres,dates,casts,directors):
     with col3:
         st.header("Release Date:")
     with col4:
-        st.header("Box Office")
+        st.header("Box Office:")
     with col5:
-        st.header("Cast")
+        st.header("Cast:")
     with col6:
-        st.header("Director")
+        st.header("Director:")
 
     st.divider()
     for name, poster, genres, date, budget, cast, director, revenue, link in zip(names, posters, genres, dates, budgets, casts, directors, revenues,
